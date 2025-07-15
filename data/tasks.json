@@ -3,55 +3,14 @@
     "id": 0,
     "title": "Tarea predeterminada para mañana",
     "description": "Esta es una tarea predeterminada creada dinamicamente al crear el archivo tasks.json",
-    "limitDate": "2025-07-16T16:16:21.990Z",
+    "limitDate": "2025-07-16",
     "completed": false
   },
   {
     "id": 1,
     "title": "Tarea predeterminada de ayer",
     "description": "Esta es una tarea predeterminada creada dinamicamente al crear el archivo tasks.json",
-    "limitDate": "2025-07-14T16:16:21.991Z",
+    "limitDate": "2025-07-14",
     "completed": true
-  },
-  {
-    "id": 2,
-    "title": "Hacer la compra en el Mercadona",
-    "description": "Gastarse los dineros",
-    "limitDate": "2025-07-16T16:16:21.990Z",
-    "completed": true
-  },
-  {
-    "id": 3,
-    "description": "Gastarse los dineros",
-    "limitDate": "2025-07-16T16:16:21.990Z",
-    "completed": true
-  },
-  {
-    "id": 4,
-    "title": "Tarea creada con schema",
-    "description": "Gastarse los dineros",
-    "limitDate": "2025-07-16",
-    "completed": true
-  },
-  {
-    "id": 5,
-    "title": "Tarea solo obligatorios",
-    "description": "",
-    "limitDate": "2025-07-16",
-    "completed": false
-  },
-  {
-    "id": 6,
-    "title": "Tarea solo obligatorios",
-    "description": "",
-    "limitDate": "2025-07-15",
-    "completed": false
-  },
-  {
-    "id": 7,
-    "title": "Tarea solo obligatorios",
-    "description": "",
-    "limitDate": "2025-07-18",
-    "completed": false
   }
 ]
