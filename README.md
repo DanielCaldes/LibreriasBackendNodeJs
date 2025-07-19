@@ -70,7 +70,7 @@ to-do-app/
 ├── controllers/
 │   ├── auth.controller.js          # Lógica para autenticación mediante generación de tokens
 │   └── tasks.controller.js         # Lógica para manejar las operaciones CRUD de tareas
-├── utils.js                       # Funciones útiles para lectura/escritura JSON y manejo archivos
+├── utils.js                       # Funciones utilitarias para lectura/escritura JSON y manejo archivos
 ├── config.js                      # Configuración centralizada (constantes de inicialización de datos)
 ├── app.js                         # Archivo principal que configura Express y middlewares
 ├── index.js                       # Punto de entrada que inicia el servidor
@@ -204,12 +204,14 @@ to-do-app/
   }
   ```
 
-## Middleware y funcionalidades adicionales
+## Middlewares
 
 - **Morgan** para registro global de solicitudes HTTP.  
 - **Joi** para validación de los datos recibidos en la creación y actualización de tareas.  
 - **jsonwebtoken** para generación y validación de tokens JWT.  
-- **Middleware global de manejo de errores** para capturar errores y responder con JSON adecuado.  
+- **Middleware global de manejo de errores** para capturar errores y responder con JSON adecuado.
+
+## Funcionalidades adicionales
 - **Mutex** para evitar condiciones de carrera en el acceso a `tasks.json`.  
 - **Funciones utilitarias** en `utils.js` para lectura/escritura de JSON y creación/aseguramiento del archivo `tasks.json`.
 
@@ -223,14 +225,6 @@ En el fichero `.env` deben definirse las siguientes variables:
 - `DATA_DIR`: directorio donde se almacena el archivo `tasks.json`.
 
 Se incluye un archivo `.env.example` para facilitar la creación del archivo `.env`.
-
-## Concurrencia y Mutex
-
-Para evitar condiciones de carrera al modificar el archivo JSON de tareas, se ha implementado un sistema de mutex que garantiza exclusión mutua al leer y escribir el fichero.
-
-## Conclusiones
-
-Este proyecto cumple con los requisitos del enunciado para la creación de una API REST con un CRUD completo, validación de datos, autenticación JWT, gestión de variables de entorno y manejo adecuado de errores y concurrencia. Además, se ha incluido el registro de solicitudes con Morgan para facilitar el monitoreo y depuración.
 
 ## Licencia
 
