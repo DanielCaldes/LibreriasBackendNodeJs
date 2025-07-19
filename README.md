@@ -200,7 +200,7 @@ to-do-app/
 
   ```json
   {
-    "message": "Tarea eliminada correctamente"
+    "message": "Tarea /* Comprar leche */ (ID: 1) eliminada con éxito"
   }
   ```
 
